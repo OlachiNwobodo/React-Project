@@ -1,0 +1,37 @@
+.hero{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    background-image:url(../assets/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 350px;
+  height:250px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background-color: #222;  
+  color: #fff;              
+  text-align: center;      
+  padding: 20px 0;          
+  margin-top: 40px;       
+  font-size: 14px;
+}
